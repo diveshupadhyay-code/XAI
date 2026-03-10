@@ -5,8 +5,7 @@ import numpy as np
 import gdown
 import os
 os.environ['TF_USE_LEGACY_KERAS'] = '1' # Purane model ko naye system mein chalane ka jugaad
-import tensorflow as tf
-
+import tf_keras as keras
 # --- 1. Model Loading Ka Jugad ---
 file_id = '1iKNJyPhAKIRrzR7ihhNgxrgzgSPQS-8y'
 url = f'https://drive.google.com/uc?id={file_id}'
